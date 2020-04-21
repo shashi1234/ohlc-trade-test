@@ -1,0 +1,16 @@
+{
+  "name": "analytical_server",
+  "version": "1.0.0",
+  "description": "Analytical server (OHLC) time series based on the trades input dataset",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --experimental-worker app.js"
+  },
+  "author": "Shashikant Kalaskar",
+  "license": "ISC",
+  "dependencies": {
+    "appmetrics-dash": "^5.3.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

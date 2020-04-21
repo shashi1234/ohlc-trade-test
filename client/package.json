@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "client application",
+  "main": "client.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Shashikant Kalaskar",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^2.3.0"
+  }
+}
